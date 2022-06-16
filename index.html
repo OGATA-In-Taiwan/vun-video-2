@@ -4,12 +4,13 @@
 <html>
   <head>
     <script>
-      var owidth = ($(window).width());
+      var owidth = screen.width;
 
       if(owidth<720){
-      window.location.href = "https://m.vun-video.tk";
-      }else{
-      window.location.href = "https://www.vun-video.tk";
+        window.location = "https://m.vun-video.tk";
+      }
+      else{
+        window.location = "https://www.vun-video.tk";
       }
     </script>
   </head>
